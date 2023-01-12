@@ -1,4 +1,4 @@
-package BaekJoon;
+package BaekJoon.jan;
 
 public class num4673 {
     public static void main(String[] args) {
