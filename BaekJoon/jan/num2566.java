@@ -36,4 +36,5 @@ public class num2566 {
         System.out.print(1 + " " + 1);
     }
 }
+
 }
