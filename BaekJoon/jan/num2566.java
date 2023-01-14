@@ -18,6 +18,7 @@ public class num2566 {
         int row = 0;
         int col = 0;
 
+
         for (int i = 0; i < 9; i++) {
             for (int j = 0; j < 9; j++) {
                 if (arr[i][j] >max){
@@ -27,7 +28,12 @@ public class num2566 {
                 }
             }
         }
-        System.out.println(max);
-        System.out.print(row + " " + col);
+        if (max != 0) {
+            System.out.println(max);
+            System.out.print(row + " " + col);
+        }else{
+        System.out.println(0);
+        System.out.print(1 + " " + 1);
     }
+}
 }
